@@ -3,6 +3,11 @@ body, h1, h2, h3, p, ul {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    color: #333;
+}
+
+body {
+    background-color: #f4f4f4;
 }
 
 /* Container for the A4 page */
@@ -11,75 +16,65 @@ body, h1, h2, h3, p, ul {
     min-height: 297mm;
     padding: 20mm;
     margin: auto;
+    background-color: #fff;
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-/* Styles for header */
 header {
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 20px;
 }
 
-header h1 {
+.header-left {
+    flex: 1;
+}
+
+.header-left h1 {
     margin-bottom: 5px;
 }
 
-header p {
+.header-left p {
     margin: 5px 0;
 }
 
-header a {
-    color: #00f;
+.header-left a {
+    color: #007bff;
     text-decoration: none;
 }
 
-header a:hover {
+.header-left a:hover {
     text-decoration: underline;
 }
 
-/* Section headings */
-section h2 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-size: 1.2em;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 5px;
+.header-right img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
 }
 
-/* Job titles and company names */
-h3 {
-    margin: 10px 0;
-    font-size: 1em;
-    font-weight: bold;
-}
-
-ul {
-    margin: 10px 0 20px 20px;
-}
-
-li {
-    margin-bottom: 5px;
-}
-
-/* Table styles */
-table {
-    width: 100%;
-    border-collapse: collapse;
+section {
     margin-bottom: 20px;
 }
 
-td {
-    border: 1px solid #ddd;
-    padding: 8px;
+section h2 {
+    font-size: 1.5em;
+    color: #444;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #007bff;
+    display: inline-block;
+    padding-bottom: 5px;
 }
 
-/* Project links */
-a {
-    color: #00f;
-    text-decoration: none;
+.skills {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-a:hover {
-    text-decoration: underline;
-}
+.skills span {
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    padding: 5px
