@@ -1,0 +1,85 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for the A4 page */
+.container {
+    width: 210mm;
+    min-height: 297mm;
+    padding: 20mm;
+    margin: auto;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Styles for header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+header a {
+    color: #00f;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Section headings */
+section h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Job titles and company names */
+h3 {
+    margin: 10px 0;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+ul {
+    margin: 10px 0 20px 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Project links */
+a {
+    color: #00f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
